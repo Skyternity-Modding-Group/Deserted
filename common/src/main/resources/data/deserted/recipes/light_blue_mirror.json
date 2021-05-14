@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    "xyx",
+    " x "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "deserted:mica_sheet"
+    },
+    "y":
+    {
+      "item": "minecraft:light_blue_stained_glass_pane"
+    }
+  },
+  "result":
+  {
+    "item": "deserted:light_blue_mirror",
+    "count": 1
+  }
+}

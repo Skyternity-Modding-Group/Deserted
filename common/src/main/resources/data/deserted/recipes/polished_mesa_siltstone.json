@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x ",
+    "x ",
+    "  "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "deserted:mesa_siltstone"
+    }
+
+  },
+  "result":
+  {
+    "item": "deserted:polished_mesa_siltstone",
+    "count": 2
+  }
+}

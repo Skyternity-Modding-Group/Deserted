@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xx ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "deserted:siltstone"
+    }
+
+  },
+  "result":
+  {
+    "item": "deserted:siltstone_bricks",
+    "count": 4
+  }
+}

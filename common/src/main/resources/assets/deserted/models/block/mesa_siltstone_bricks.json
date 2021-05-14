@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "deserted:blocks/mesa_siltstone_bricks"
+  }
+}

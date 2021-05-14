@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "archskeleton",
+  "id": "deserted",
   "version": "${version}",
-  "name": "Architectury Skeleton",
-  "description": "If you're seeing this, then someone in our team messed up and forgot to replace this text. Actually, I'm surprised that this boots up at all - leocth",
+  "name": "Deserted",
+  "description": "A Minecraft Mod that aims to expand the rough, dry and dusty deserts!",
   "authors": [
-    "ReMod Studios"
+    "Skyternity Modding Group"
   ],
   "license": "Apache-2.0",
-  "icon": "assets/archskeleton/icon.png",
+  "icon": "assets/deserted/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [{
       "adapter": "kotlin",
-      "value": "com.remodstudios.archskeleton.fabric.ArchitecturySkeletonFabric"
+      "value": "com.skyternity.deserted.fabric.DesertedFabric"
     }],
     "client": [{
       "adapter": "kotlin",
-      "value": "com.remodstudios.archskeleton.fabric.ArchitecturySkeletonFabricClient"
+      "value": "com.skyternity.deserted.fabric.DesertedFabricClient"
     }]
   },
   "depends": {

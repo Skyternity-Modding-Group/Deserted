@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "deserted:desert_rose"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result":
+  {
+    "item": "deserted:dusted_desert_rose",
+    "count": 1
+  }
+}
