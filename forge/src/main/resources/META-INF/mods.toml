@@ -1,6 +1,5 @@
 modLoader="kotlinforforge"
 loaderVersion="[1.12,)"
-#issueTrackerURL = ""
 license = "Apache-2.0"
 
 [[mods]]
@@ -11,7 +10,7 @@ authors = "Skyternity Modding Group"
 description = '''
 A Minecraft Mod that aims to expand the rough, dry and dusty deserts!
 '''
-#logoFile = ""
+logoFile = "assets/deserted/icon.png"
 
 [[dependencies.deserted]]
 modId = "forge"

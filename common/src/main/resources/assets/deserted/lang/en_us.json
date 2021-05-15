@@ -21,8 +21,9 @@
   "item.deserted.mica_sheet": "Mica Sheet",
   "item.deserted.desert_rose": "Desert Rose",
   "item.deserted.dusted_desert_rose": "Dusted Desert Rose",
-  "block.deserted.mica_cluster": "Mica Cluster",
   "item.deserted.mica_plate": "Mica Plate",
+
+  "block.deserted.mica_cluster": "Mica Cluster",
   "block.deserted.siltstone": "Siltstone",
   "block.deserted.siltstone_bricks": "Siltstone Bricks",
   "block.deserted.polished_siltstone": "Polished Siltstone",
@@ -30,5 +31,4 @@
   "block.deserted.polished_mesa_siltstone": "Polished Mesa Siltstone",
   "block.deserted.mesa_siltstone_bricks": "Mesa Siltstone Bricks",
   "block.deserted.desert_rose_deposit": "Desert Rose Deposit"
-
 }

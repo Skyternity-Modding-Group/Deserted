@@ -24,7 +24,7 @@ open class ItemRegistryHelper(registry: DeferredRegister<Item>): RegistryHelper<
 
     inline fun add(
         id: String,
-        init: Item.Settings.() -> Unit = {}
+        init: Item.Settings = {}
     ): RegistrySupplier<Item> {
         val settings = defaultSettings()
         settings.init()
