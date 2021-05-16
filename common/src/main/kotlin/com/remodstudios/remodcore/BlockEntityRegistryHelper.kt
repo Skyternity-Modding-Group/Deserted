@@ -1,14 +1,10 @@
 package com.remodstudios.remodcore
 
 import com.mojang.datafixers.types.Type
-import com.remodstudios.lumidep.block.LumidepBlocks
-import me.shedaniel.architectury.registry.BlockProperties
 import me.shedaniel.architectury.registry.DeferredRegister
 import net.minecraft.block.Block
-import net.minecraft.block.Material
 import net.minecraft.block.entity.BlockEntity
 import net.minecraft.block.entity.BlockEntityType
-import net.minecraft.sound.BlockSoundGroup
 import net.minecraft.util.registry.Registry
 
 open class BlockEntityRegistryHelper(

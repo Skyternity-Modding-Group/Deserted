@@ -5,6 +5,7 @@ import me.shedaniel.architectury.registry.RegistrySupplier
 import net.minecraft.block.Block
 import net.minecraft.item.BlockItem
 import net.minecraft.item.Item
+import net.minecraft.item.ItemGroup
 import net.minecraft.util.registry.Registry
 
 open class ItemRegistryHelper(registry: DeferredRegister<Item>): RegistryHelper<Item>(registry) {
@@ -24,10 +25,10 @@ open class ItemRegistryHelper(registry: DeferredRegister<Item>): RegistryHelper<
 
     inline fun add(
         id: String,
-        init: Item.Settings = {}
+        init: Item.Settings = defaultSettings()
     ): RegistrySupplier<Item> {
         val settings = defaultSettings()
-        settings.init()
+        settings.group(ItemGroup.MISC)
         return add(id, Item(settings))
     }
 
