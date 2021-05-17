@@ -17,7 +17,7 @@
     }],
     "client": [{
       "adapter": "kotlin",
-      "value": "com.skyternity.deserted.fabric.DesertedFabricClient"
+      "value": "com.skyternity.deserted.fabric.DesertedFabric"
     }]
   },
   "depends": {
