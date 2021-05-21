@@ -12,7 +12,6 @@ import net.minecraft.item.ItemGroup
 @SuppressWarnings("unused")
 object ItemRegistry: ItemRegistryHelper(Deserted.MOD_ID) {
     val REGISTRY = DeferredRegister.create(Deserted.MOD_ID, Registry.ITEM_KEY)
-    val GROUP = getItemGroup();
 
     override fun defaultSettings(): Item.Settings = Item.Settings().group(ItemGroup.MISC)
 

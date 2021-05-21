@@ -6,4 +6,3 @@ import net.minecraft.item.ItemGroup
 
 @ExpectPlatform
 fun printHelloWorld(): Unit = throw AssertionError()
-fun getItemGroup(): ItemGroup = throw AssertionError()
